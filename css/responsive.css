@@ -1,11 +1,10 @@
-
-
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    
     .header-search {
         padding: 15px 0px;
     }
@@ -127,491 +126,335 @@
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
     }
+
+
+
+
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .header_section{
-        background-size: cover;
+    
+    .titlepage h2::after {width: 58%;}
+    .about-box .titlepage h2::after {
+        width: 52%;
+right: -221px;
     }
-    .logo {
-        width: 21%;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-left: 10px;
-    }
-    .banner_taital {
-        font-size: 44px;
-    }
-    .about_bt {
-        width: 150px;
-    }
-    .quote_bt {
-        width: 150px;
-    }
-    #my_slider a.carousel-control-prev {
-        left: 400px;
-        top: 70%;
-    }
-    #my_slider a.carousel-control-next {
-        right: 450px;
-        top: 70%;
-    }
-    .news_section{
-        padding-top: 30px;
-    }
-    .news_taital_box {
-        padding: 30px;
-        margin-top: 3px;
-    }
-    .image_6 {
-        height: 285px;
-    }
-    .plus_text{
-        bottom: 120px;
-    }
-    .classes_text {
-        font-size: 26px;
-        padding-top: 65px;
-    }
-    .client_name{
-        padding-top: 110px;
-    }
-    .client_section_2 {
-        width: 100%;
-    }
-    .client_left {
-        padding: 50px 0px 0px 0px;
-    }
-    .client_right {
-        padding: 25px 0px 0px 40px;
-    }
-    #main_slider a.carousel-control-prev {
-        left: -65px;
-        top: 60%;
-    }
-    #main_slider a.carousel-control-next {
-        right: -65px;
-        top: 60%;
-    }
-    .contact_taital {
-        width: 62%;
-        margin: 0 auto;
-        float: initial;
-    }
-    .contact_img {
-        width: 100%;
-        height: 358px;
-        background-size: 100%;
-        padding: 50px 60px;
-    }
+    .Nursery-img .text-box h3 {padding: 111px 50px;}
+    .contact .titlepage h2::after {
+    left: -650px;
+width: 30%;
+   }
 
-    .map_main {
-        padding-top: 50px;
-    }
+.navbar-toggler { background-color: #ffffff; }
+.logo { width: 20%; }
+.navbar-expand-lg .navbar-nav .nav-link { padding-left: 16px; }
+.navbar-light .navbar-nav .nav-link { font-size: 16px; }
+.call_text { font-size: 16px; } 
+.search_icon li { padding-left: 8px; font-size: 16px; } 
+.banner_section { padding-top: 15px; } 
+.contact_bt { margin-top: 220px; }
+.banner_section { padding-bottom: 40px; }
+.contact_section { background-size: cover; }
 
-    .email_text {
-        width: 60%;
-    }
-    .margin_top {
-        margin-top: 60px;
-    }
-    .footer_section_2{
-        margin-top: 50px;
-    }
 
-    .footer_menu li{
-        padding: 6px 0px;
-    }
-    .footer_logo {
-        padding: 112px 0px;
-    }
-    .many_text {
-    width: 100%;
-    margin-left: 0px;
-    line-height: 30px;
-}
-.call_text{
-    font-size: 14px;
-}
+
+
+
 
 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .header_section{
-        background-size: cover;
-    }
-    .logo {
-        width: 40%;
-    }
-    .banner_taital {
-        font-size: 33px;
-    }
-    .about_bt {
-        width: 150px;
-    }
-    .quote_bt {
-        width: 150px;
-    }
-    #my_slider a.carousel-control-prev {
-        left: 400px;
-        top: 70%;
-    }
-    #my_slider a.carousel-control-next {
-        right: 230px;
-        top: 70%;
-    }
-    .news_section{
-        padding-top: 30px;
-    }
-    .news_taital_box {
-        padding: 10px;
-        margin-top: 0px;
-    }
-    .image_6 {
-        height: 285px;
-    }
-    .plus_text{
-        bottom: 120px;
-    }
-    .classes_text {
-        font-size: 26px;
-        padding-top: 10px;
+    .main-menu ul > li a {padding: 7px 6px ; }
+    .main-menu ul>li a { font-size: 14px;}
+
+
+    .banner-main .carousel-caption h1 {
+
+        font-size: 36px;
         padding-top: 0px;
     }
-    .client_section_2 {
-        width: 100%;
+    .banner-main .carousel-caption p {
+
+        margin-bottom: 7px;
+        display: none;
     }
-    .client_left {
-        padding: 50px 0px 0px 0px;
-    }
-    .client_right {
-        padding: 25px 0px 0px 40px;
-    }
+    .main { width: 15%;}
+    .info_icon { min-width: 10%;}
     #main_slider a.carousel-control-prev {
-        left: -65px;
-        top: 60%;
+    display: none;
     }
+    .btn_main { margin-top: 58px; width: 65%;}
     #main_slider a.carousel-control-next {
-        right: -65px;
-        top: 60%;
+    display: none;
     }
-    .contact_taital {
-        width: 100%;
-        margin: 0 auto;
-        float: initial;
+    .sporrt_text { margin-top: 0px; font-size: 24px;}
+    .email_btn { padding: 41px;}
+    .btn-primary {max-width: 144px; }
+    .titlepage h2::after {width: 79%;}
+    .about-box .titlepage h2::after {width: 73%;
+       right: -88px;
     }
-    .contact_img {
-        width: 100%;
-        height: 275px;
-        background-size: 100%;
-        padding: 10px 60px;
+    .contact .titlepage h2::after {
+        left: -403px;
+        width: 41%;
     }
-    .map_main {
-        padding-top: 50px;
+    .paddimg-right {
+        padding-right: 15px;
     }
-    .subscribe_bt {
-        width: 300px;
+    .paddimg-left {
+         padding-left: 15px;
     }
-    .email_text {
-        width: 55%;
-    }
-    .margin_top {
-        margin-top: 0px;
-    }
-    .footer_section_2{
-        margin-top: 50px;
-    }
-    .information_main{
-        border: 0px;
-        padding: 0px; 
-    }
-    .footer_menu li{
-        padding: 0px;
-    }
-    .footer_logo {
-        padding: 74px 0px;
-    }
-    .many_text {
-    width: 100%;
-    margin-left: 0px;
-    line-height: 30px;
-}
+
+
+.navbar-toggler { background-color: #ffffff; }
+.logo { width: 50%; }
+.header_section { background-size: cover; }
+.banner_section { padding-top: 20px; padding-bottom: 28PX; }
+.furniture_text { font-size: 50px; }
+.there_text { width: 100%; font-size: 15px;}
+.contact_bt_main { width: 150px; }
+.contact_bt { margin-top: 200px; }
+.dummy_text { font-size: 15px; }
+.services_section2 { padding-top: 30px; }
+.icon_1 { padding-top: 30px; }
+.read_bt_main { width: 150px; }
+.lorem_text { padding-top: 0px; font-size: 15px; }
+.read_bt1 { width: 150px; margin-top: 20px; }
+.image_1 { padding-top: 50px; } 
+.get_bt_main { width: 150px; }
+.get_bt { margin-top: 20PX; }
+.client_text { font-size: 22PX; }
+.client_1 { width: 70%; }
+.client_2 { width: 70%; }
+.quote_icon { bottom: 87px; }
+.carousel-indicators { display: none; } 
+.overlay { top: 35px; }
+.icon { font-size: 70px; }
+.dololr_text { font-size: 16px; }
+.contact_section { background-size: cover; }
+.send_bt a { width: 130px; padding: 5px 0px; }
+.input-group { width: 290px; } 
+.container_main1::after { width: 88%; height: 88%; }
+.modern_text { font-size: 12px; top: -30px; }
+.text { font-size: 8px; }
+.temper_text { font-size: 15px; }
+.email-bt { margin-top: 10px; }
+.massage-bt { margin-top: 10px; }
+.send_bt { margin-top: 20px; } 
+.mb-lg-0, .my-lg-0 { width: 100%; } 
+.search_icon { width: 100%; }
+#costum_slider a.carousel-control-next { display: none; }
+#costum_slider a.carousel-control-prev { display: none; }
+
+
 
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    #my_slider a.carousel-control-prev {
-        display: none;
-    }
-    #my_slider a.carousel-control-next {
-        display: none;
-    }
-    .header_section{
-        background-size: cover;
-    }
-    .logo {
-        width: 40%;
-    }
-    .banner_taital {
-        font-size: 40px;
-    }
-    .about_bt {
-        width: 170px;
-    }
-    .quote_bt {
-        width: 170px;
-    }
-    .image_1 {
-        padding: 20px 0px 0px 0px;
-    }
-    .news_section{
-        padding-top: 0px;
-    }
-    .news_section_2{
-        padding-top: 0px;
-    }
-    .news_taital_box {
-        padding: 10px;
-    }
-    .plus_text{
-        display: none;
-    }
-    .image_6{
-        padding-top: 30px;
-    }
-    .news_taital {
-        font-size: 30px;
-    }
-    .classes_text {
-        font-size: 20px;
-        padding-top: 20px;
-    }
-    .client_section {
-        padding: 40px 0px;
-    }
-    .client_section_2{
-        display: initial;
-    }
-    .client_left {
-        width: 100%;
-        padding: 0px;
-    }
-    .client_right {
-        width: 100%;
-        padding: 0px;
-    }
-    #main_slider a.carousel-control-prev{
-        display: none;
-    }
-    #main_slider a.carousel-control-next{
-        display: none;
-    }
-    .client_text{
-        font-size: 15px;
-    }
-    .newsletter_main{
-        display: flex;
-    }
-    .newsletter_taital {
-        font-size: 28px;
-    }
-    .get_quote_bt {
-        width: 290px;
-        margin-top: 13px;
-    }
-    .blog_section.row{
-        flex-direction: column-reverse;
-    }
-    .dolor_text{
-        font-size: 15px;
-    }
-    .padding_left0 {
-        padding-left: 15px;
-    }
-    .contact_taital {
-        width: 40%;
-        font-size: 30px;
-        text-align: center;
-        margin-right: 0px;
-        margin: 0 auto;
-        float: initial;
-    }
-    .contact_img {
-        width: 100%;
-        height: 430px;
-        padding: 100px 60px;
-        background-size: cover;
-    }
-    .map_main {
-        padding: 40px 0px;
-    }
-    .subscribe_bt {
-        width: 288px;
-    }
-    .email_text {
-        width: 100%;
-        float: left;
-        width: 100%;
-        margin-top: 30px;
-    }
-    .margin_top {
-        margin-top: 0px;
-    }
-    .footer_section_2{
-        margin-top: 30px;
-    }
-    .information_main {
-        border-left: 0;
-        padding-left: 0;
-        margin-top: 30px;
-    }
-    .footer_menu li{
-        padding: 0px;
-    }
-    .footer_logo {
-        padding: 0px 0px;
-    }
-    .copyright_text {
-        font-size: 19px;
-    }
+    .last {display: none;}
+    .banner-main .carousel-caption {top: 0%;}
+.titlepage h2 {
+font-size: 42px;
+display: block; 
 }
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 25%;
+    top: 64%;
+    display: none;
+}
+.btn_main { margin-top: 58px; width: 80%;}
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 50px;
+    top: 64%;
+    display: none;
+}
+.btn-primary {
+    margin-top: 0px;
+    margin-left: -7px;
+}
+
+.banner-main .carousel-caption h1 {
+    font-size: 50px;
+}
+.titlepage h2::after {
+width: 88%;
+}
+
+.about-box .titlepage h2::after {width: 45%;
+right: -281px;}
+.sporrt_text { margin-top: 0px;}
+.Nursery-img .text-box h3 {
+font-size: 36px;
+padding: 126px 40px;
+}
+.main {
+    width: 20%;}
+
+.contact .titlepage h2::after {
+    left: -234px;
+    width: 55%;
+}
+
+.navbar-toggler { background-color: #ffffff; }
+.logo { width: 50%; }
+.header_section { background-size: cover; }
+.banner_section { background-size: cover; padding-top: 20px; }
+.furniture_text { font-size: 50px; }
+.there_text { width: 100%; font-size: 15px;}
+.contact_bt_main { width: 150px; }
+.contact_bt { margin-top: 90px; }
+.dummy_text { font-size: 15px; }
+.services_section2 { padding-top: 30px; }
+.icon_1 { padding-top: 30px; }
+.read_bt_main { width: 150px; }
+.lorem_text { padding-top: 0px; font-size: 15px; }
+.read_bt1 { width: 150px; margin-top: 20px; }
+.image_1 { padding-top: 50px; } 
+.get_bt_main { width: 150px; }
+.get_bt { margin-top: 20PX; }
+.client_text { font-size: 22PX; }
+.client_1 { width: 100%; }
+.client_2 { width: 100%; }
+.quote_icon { bottom: 82px; }
+.carousel-indicators { display: none; } 
+.overlay { top: 35px; }
+.icon { font-size: 70px; }
+.dololr_text { font-size: 16px; }
+.contact_section { background-size: cover; }
+.send_bt a { width: 130px; padding: 5px 0px; }
+.input-group { width: 290px; } 
+.container_main1::after { width: 84%; height: 84%; }
+.modern_text { font-size: 12px; top: -30px; }
+.text { font-size: 8px; }
+.mb-lg-0, .my-lg-0 { width: 100%; } 
+.search_icon { width: 100%; }
+#costum_slider a.carousel-control-next { display: none; }
+#costum_slider a.carousel-control-prev { display: none; }
+
+
+} 
+
 
 @media (max-width: 575px) {
-    #my_slider a.carousel-control-prev {
-        display: none;
+    .last { display: none; }
+    .carousel-caption {display: none;} 
+.header { padding-top: 0px; }
+.btn-primary {max-width: 126px;
+margin-right: 2px;
+font-size: 14px;}
+.banner-main .carousel-caption h1 {font-size: 30px; line-height: 38px;}
+.titlepage h2 {
+    font-size: 27px;
+}
+.sporrt_text{ 
+     font-size: 23px; 
+     margin-top: 0px;
+}
+.main {
+    width: 100%;
+}
+.btn_main {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    width: 55%;}
+
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 175px;
+    top: 90%;
+    display: none;
+}
+
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 236px;
+    top: 90%;
+    display: none;
+}
+
+.titlepage h2::after {
+    width: 93%;
+}
+    .about-box .titlepage h2::after {
+        width: 238px;
+        right: -50px;
     }
-    #my_slider a.carousel-control-next {
-        display: none;
+ .Gallery .titlepage h2 {
+    font-size: 47px;
+ }
+    .Gallery .titlepage h2::after {
+        width: 89%;
     }
-    .header_section{
-        background-size: cover;
-    }
-    .logo {
-        width: 40%;
-    }
-    .banner_taital {
-        font-size: 29px;
-    }
-    .about_bt {
-        width: 137px;
-    }
-    .quote_bt {
-        width: 137px;
-    }
-    .image_1 {
-        padding: 20px 0px 0px 0px;
-    }
-    .news_section{
-        padding-top: 0px;
-    }
-    .news_section_2{
-        padding-top: 0px;
-    }
-    .news_taital_box {
-        padding: 10px;
-    }
-    .plus_text{
-        display: none;
-    }
-    .image_6{
-        padding-top: 30px;
-    }
-    .news_taital {
-        font-size: 30px;
-    }
-    .blog_section.row{
-        flex-direction: column-reverse;
-    }
-    .classes_text {
-        font-size: 20px;
-        padding-top: 20px;
-    }
-    .client_section {
-        padding: 40px 0px;
-    }
-    .client_section_2{
-        display: initial;
-    }
-    .client_left {
-        width: 100%;
-        padding: 0px;
-    }
-    .client_right {
-        width: 100%;
-        padding: 0px;
-    }
-    #main_slider a.carousel-control-prev{
-        display: none;
-    }
-    #main_slider a.carousel-control-next{
-        display: none;
-    }
-    .client_text{
-        font-size: 15px;
-    }
-    .newsletter_main{
-        display: initial;
-    }
-    .newsletter_taital {
-        font-size: 28px;
-    }
-    .get_quote_bt {
-        width: 290px;
-    }
-    .dolor_text{
-        font-size: 15px;
-    }
-    .padding_left0 {
-        padding-left: 15px;
-    }
-    .contact_taital {
-        width: 100%;
-        font-size: 30px;
-        text-align: center;
-        margin-right: 0px;
-    }
-    .contact_img {
-        width: 100%;
-        height: 430px;
-        padding: 100px 60px;
-        background-size: cover;
-    }
-    .map_main {
-        padding: 40px 0px;
-    }
-    .subscribe_bt {
-        width: 288px;
-    }
-    .email_text {
-        width: 100%;
-        float: left;
-        width: 100%;
-        margin-top: 30px;
-    }
-    .margin_top {
-        margin-top: 0px;
-    }
-    .footer_section_2{
-        margin-top: 30px;
-    }
-    .information_main {
-        border-left: 0;
-        padding-left: 0;
-        margin-top: 30px;
-    }
-    .footer_menu li{
-        padding: 0px;
-    }
-    .footer_logo {
-        padding: 0px 0px;
-    }
-    .copyright_text {
-        font-size: 19px;
-    }
+
+    .paddimg-right {
+    padding-right: 15px;
+}
+.paddimg-left {
+    padding-left: 15px;
+}
+.Nursery-img .text-box h3 {
+font-size: 23px;
+padding: 30px 14px;
+
+}
+
+.contact .titlepage h2::after {
+
+    left: -8px;
+    width: 281px;
+}
+.footer .headinga span {
+font-size: 16px;
+
+}
+.menu-bottom {
+    margin-bottom: 45px;
+}
+ul.link li {
+
+    padding: 8px 12px;
+    padding-bottom: 0px; 
+}
+
+
+.navbar-toggler { background-color: #ffffff; }
+.logo { width: 50%; }
+.header_section { background-size: cover; }
+.banner_section { background-size: cover; padding-top: 20px; }
+.furniture_text { font-size: 50px; }
+.there_text { width: 100%; font-size: 15px;}
+.contact_bt_main { width: 150px; }
+.contact_bt { margin-top: 20px; }
+.dummy_text { font-size: 15px; }
+.services_section2 { padding-top: 30px; }
+.icon_1 { padding-top: 30px; }
+.read_bt_main { width: 150px; }
+.lorem_text { padding-top: 0px; font-size: 15px; }
+.read_bt1 { width: 150px; margin-top: 20px; }
+.image_1 { padding-top: 50px; } 
+.get_bt_main { width: 150px; }
+.get_bt { margin-top: 20PX; }
+.client_text { font-size: 22PX; }
+.client_1 { width: 100%; }
+.client_2 { width: 100%; }
+.quote_icon { width: 150px; bottom: -8px; }
+.loksans_text { padding-top: 20px; } 
+.carousel-indicators { display: none; } 
+.overlay { top: 35px; }
+.icon { font-size: 70px; }
+.dololr_text { font-size: 16px; }
+.contact_section { background-size: cover; }
+.send_bt a { width: 130px; padding: 5px 0px; }
+.input-group { width: 290px; } 
+.container_main1::after { width: 98%; height: 93%; }
+#costum_slider a.carousel-control-next { display: none; }
+#costum_slider a.carousel-control-prev { display: none; }
 
 
 
 
 }
-

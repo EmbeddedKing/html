@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <!-- basic -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,8 +13,6 @@
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
-      <!-- owl carousel style -->
-      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css" />
       <!-- bootstrap css -->
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
       <!-- style css -->
@@ -26,80 +25,68 @@
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <!-- fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
       <!-- owl stylesheets --> 
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    </head>
    <body>
-      <!--header section start -->
+      <!-- header section start -->
       <div class="header_section">
-         <div class="header_bg">
-            <div class="container">
-               <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                  <a class="logo" href="index.html"><img src="images/logo.png"></a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                           <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="services.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="blog.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
+         <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="services.html">services</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                     <h1 class="call_text">Call Us : +01 1234567890</h1>
+                  </form>
+                  <div class="search_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/search-icon.png"></a></li>
+                        <li><a href="#">LOGIN</a></li>
                      </ul>
-                     <div class="call_section">
-                        <ul>
-                           <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                           <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                           <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                           <li><a href="#"><img src="images/instagram-icon.png"></a></li>
-                           <div class="donate_bt"><a href="#"><img src="images/search-icon.png"></a></div>
-                        </ul>
-                     </div>
                   </div>
-               </nav>
-            </div>
+               </div>
+            </nav>
          </div>
       </div>
-      <!--header section end -->
-      <!-- newsletter section start -->
-      <div class="newsletter_section layout_padding">
-         <div class="container">
-            <div class="newsletter_main">
-               <h1 class="newsletter_taital">Get<br> Your free consuting </h1>
-               <div class="get_quote_bt"><a href="#">Get A Quote</a></div>
-            </div>
-            <p class="dolor_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
-         </div>
-      </div>
-      <!-- newsletter section end -->
+      <!-- header section end -->
       <!-- contact section start -->
       <div class="contact_section layout_padding">
-         <div class="container-fluid">
+         <div class="container">
             <div class="row">
-               <div class="col-md-6 padding_left0">
-                  <div class="mail_section">
-                     <div class="contact_img">
-                        <h1 class="contact_taital">Best Educations In World Here</h1>
-                     </div>
+               <div class="col-md-6">
+                  <h1 class="contact_text">CONTACT US</h1>
+                  <div class="mail_sectin">
+                     <input type="text" class="email-bt" placeholder="Name" name="Name">
+                     <input type="text" class="email-bt" placeholder="Email" name="Name">
+                     <input type="text" class="email-bt" placeholder="Phone Number" name="Name">
+                     <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                     <div class="send_bt"><a href="#">SEND</a></div>
                   </div>
                </div>
                <div class="col-md-6">
-                  <div class="map_main"><img src="images/map-img.png"></div>
+                  <div class="image_9"><img src="images/img-9.png"></div>
                </div>
             </div>
          </div>
@@ -108,49 +95,69 @@
       <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
-            <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-            <input type="text" class="email_text" placeholder="Enter Your Email" name="Enter Your Email">
-            <div class="footer_section_2">
-               <div class="row">
-                  <div class="col-lg-3 col-md-6 margin_top">
-                     <div class="call_text"><a href="#"><img src="images/call-icon1.png"><span class="padding_left_15">Call Now +01 9876543210</span></a></div>
-                     <div class="call_text"><a href="#"><img src="images/mail-icon1.png"><span class="padding_left_15">demo@gmail.com</span></a></div>
-                  </div>
-                  <div class="col-lg-3 col-md-6">
-                     <div class="information_main">
-                        <h4 class="information_text">Information</h4>
-                        <p class="many_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6">
-                     <div class="information_main">
-                        <h4 class="information_text">Helpful Links</h4>
-                        <div class="footer_menu">
-                           <ul>
-                              <li><a href="index.html">Home</a></li>
-                              <li><a href="about.html">About</a></li>
-                              <li><a href="services.html">Services</a></li>
-                              <li><a href="blog.html">Blog</a></li>
-                              <li><a href="news.html">News</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6">
-                     <div class="information_main">
-                        <div class="footer_logo"><a href="index.html"><img src="images/footer-logo.png"></a></div>
-                     </div>
-                  </div>
+            <div class="row">
+               <div class="col-lg-3 col-sm-6">
+                  <div class="fooer_logo"><img src="images/footer-logo.png"></div>
+                  <p class="footer_lorem_text">There are many variat
+                     ions of passages of L
+                     orem Ipsum available
+                     , but the majority h
+                     ave suffered altera
+                     tion in some form, by 
+                  </p>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h1 class="customer_text">LET US HELP YOU</h1>
+                  <p class="footer_lorem_text">There are many variat
+                     ions of passages of L
+                     orem Ipsum available
+                     , but the majority h
+                     ave suffered altera
+                     tion in some form, by 
+                  </p>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h1 class="customer_text">INFORMATION</h1>
+                  <p class="footer_lorem_text1">About Us<br>
+                     Careers<br>
+                     Sell on shopee<br>
+                     Press & News<br>
+                     Competitions<br>
+                     Terms & Conditions
+                  </p>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h1 class="customer_text">OUR Design</h1>
+                  <p class="footer_lorem_text">There are many variat
+                     ions of passages of L
+                     orem Ipsum available
+                     , but the majority h
+                     ave suffered altera
+                     tion in some form, by 
+                  </p>
+               </div>
+            </div>
+            <div class="input-group mb-3">
+               <input type="text" class="form-control" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="basic-addon2">
+               <div class="input-group-append">
+                  <span class="input-group-text" id="basic-addon2"><a href="#">Subscribe</a></span>
                </div>
             </div>
          </div>
       </div>
-      <!-- footer section end -->
+      <!--  footer section end -->
       <!-- copyright section start -->
       <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">© 2020 All Rights Reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+      <div class="container">
+         <div class="social_icon">
+            <ul>
+               <li><a href="#"><img src="images/fb-icon.png"></a></li>
+               <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+               <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+               <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+            </ul>
          </div>
+         <p class="copyright_text">2020 All Rights Reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
       </div>
       <!-- copyright section end -->
       <!-- Javascript files-->
@@ -164,7 +171,6 @@
       <script src="js/custom.js"></script>
       <!-- javascript --> 
       <script src="js/owl.carousel.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>    
    </body>
 </html>
-
